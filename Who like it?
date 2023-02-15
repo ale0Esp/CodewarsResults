@@ -1,6 +1,6 @@
 class Solution {
     public static String whoLikesIt(String... names) {
-      String results="";
+      //this just is funcionally with the test button
       switch(names.length){
           case 0:
            return "no one likes this";
