@@ -10,6 +10,8 @@ public class Kata {
                 }
             }
         }
+    //Another form
+    //return stream(a).filter(x -> stream(b).noneMatch(y -> y == x)).toArray();
     return a;
   }
   
